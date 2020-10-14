@@ -21,7 +21,7 @@ request.onError = event => {
     console.log(event.target.errorCode);
 }
 
-saveRecord(record) => {
+function saveRecord(record) {
     const transaction = db.transaction(["pending"], "readwrite");
     const store = transaction.ObjectStore("pending");
     const getAll = store.getAll();
@@ -47,7 +47,7 @@ saveRecord(record) => {
     }
 }
 
-deletePending() => {
+function deletePending() {
     const transaction = db.transaction(["pending"], "readwrite");
     const store = transaction.ObjectStore("pending");
     store.clear();
