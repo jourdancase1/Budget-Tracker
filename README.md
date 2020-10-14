@@ -12,5 +12,5 @@ Enter a transaction name and amount, then click "add funds" or "subtract funds".
 MIT
    
 ### Questions? Contact me at: 
-jourdancase11@gmail.com
+jourdancase11@gmail.com </br>
 https://github.com/jourdancase1         
